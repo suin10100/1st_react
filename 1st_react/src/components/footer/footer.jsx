@@ -5,13 +5,10 @@ function Footer() {
 
     useEffect(() => {
         setResult(document.querySelector("#result").textContent);
-        return () => {
-                alert("hello");
-            }
     })  
     
     useEffect(() => {
-        alert("Hi");
+        console.warn("Hi");
     }, result)
     
     return(
