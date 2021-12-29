@@ -4,8 +4,8 @@
     gap: 20px;
     background: grey;
     padding: 20px;
-    width: 600px;
-    height: 800px;
+    height: 80%;
+    aspect-ratio: 3 / 4;
 }
 
 #result_container {
